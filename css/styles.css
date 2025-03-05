@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Street";
+    src: url(../fonts/street.otf);
+}
+:root{
+    font-family: street;
+    margin:auto;
+    background-image: url(../img/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block;
+}
+h1{
+   font-family: Street; 
+   color:crimson;
+   font-size: 46px;
+   text-align: center;
+}
+table{
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+.cabecera{
+    background-image: url(../img/fondocabecera.jpg);
+    opacity: 0.5;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: auto;
+    margin: auto;
+    
+}
+span {
+    color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+    
+}
+td{
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: darkorange;
+}
+td div {
+    width: 100px; 
+    height: 100px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: auto;
+    margin: auto;
+}
+.ken{
+    background-image: url(../img/ken.png);
+}
+.chun{
+    background-image: url(../img/ChunLi.png);
+}
+.zangief{
+    background-image: url(../img/Zangief.png);
+}
+.dhalsin{
+    background-image: url(../img/Dhalsim.png);
+}
+.ryu{
+    background-image: url(../img/Ryu.png);
+}
+.honda{
+    background-image: url(../img/EHonda.png);
+}
+.blanka{
+    background-image: url(../img/Blanka.png);
+}
+.guille{
+    background-image: url(../img/Guille.png);
+}
+.hawk{
+    background-image: url(../img/THawk.png);
+}
+.feilong{
+    background-image: url(../img/Feilong.png);
+}
+.dee{
+    background-image: url(../img/DeeJay.png);
+}
+.cammy{
+    background-image: url(../img/Cammy.png);
+}
+.balrog{
+    background-image: url(../img/Balrog.png);
+}
+.vega{
+    background-image: url(../img/Vega.png);
+}
+.sagat{
+    background-image: url(../img/Sagat.png);
+}
+.bison{
+    background-image: url(../img/MBison.png);
+}
+h2{
+    color:crimson;
+    font-size: 28px;
+    text-align: center;
+}
+form{
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana;
+    padding: 20px; 
+    margin-top: 20px; 
+}
+.legend{
+    font-family: Street; 
+    color:rgb(237, 175, 5);
+    font-size: 14px;
+    margin-bottom: 20px; 
+    padding: 15px; 
+    border-radius: 8px;
+}
+textarea{
+    width: 560px;
+    height: 200px;
+}
+
+select{
+    width: 12rem;
+    margin-bottom: 20px;
+}
+.cuidad{
+    width: 100%;
+    display: flex;
+}
+
+input.boton{
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: Street;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    
+}
+

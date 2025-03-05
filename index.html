@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/arcade.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>StreetFighter-UNIR</title>
+</head>
+
+<body>
+    <h1>To live is to fight, to fight is to live!</h1>
+    <table>
+        <tr>
+            <td colspan="4" class="cabecera"><span id="letra_cabecera">Street Fighter</span></td>
+        </tr>
+        <tr>
+            <td>Ken
+                <div class="ken"></div>
+            </td>
+            <td>Chun Li
+                <div class="chun"></div>
+            </td>
+            <td>Zangief
+                <div class="zangief"></div>
+            </td>
+            <td>Dhalsin
+                <div class="dhalsin"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Ryu
+                <div class="ryu"></div>
+            </td>
+            <td>E Honda
+                <div class="honda"></div>
+            </td>
+            <td>Blanka
+                <div class="blanka"></div>
+            </td>
+            <td>Guille
+                <div class="guille"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>T Hawk
+                <div class="hawk"></div>
+            </td>
+            <td>Feilong
+                <div class="feilong"></div>
+            </td>
+            <td>Dee Jay
+                <div class="dee"></div>
+            </td>
+            <td>Cammy
+                <div class="cammy"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Balrog
+                <div class="balrog"></div>
+            </td>
+            <td>Vega
+                <div class="vega"></div>
+            </td>
+            <td>Sagat
+                <div class="sagat"></div>
+            </td>
+            <td>M Bison
+                <div class="bison"></div>
+            </td>
+        </tr>
+    </table>
+    <h2>Formulario de Inscripción para jugar a Street Figther</h2>
+    <form>
+
+        <fieldset class="DatosPersonales">
+            <legend class="legend">Datos Personales</legend>
+
+            <label for="name">Nombre: </label>
+            <input id="name" type="text" name="nombre">
+            <div class="divisor"></div>
+
+            <label for="apellidos">Apellidos: </label>
+            <input id="apellidos" type="text">
+
+            
+            <legend class="ciudad">Dirección Postal</legend>
+
+            <div class="campo-direccion">
+                    
+                <input id="calle" type="text" placeholder="Calle">
+             </div>
+
+            <div class="campo-direccion">
+                    
+                <input id="numero" type="text" placeholder="Nº">
+            </div>
+
+             <div class="campo-direccion">
+                    
+                <input id="piso" type="text" placeholder="Piso">
+             </div>
+
+            <div class="campo-direccion">
+                   
+                <input id="codigo-postal" type="text" placeholder="Cód.Postal">
+            </div>
+
+            <div class="cuidad">
+                    
+                <input id="cuidad" type="text" placeholder="Cuidad">
+            </div>
+
+            <label for="nick">Nick: </label>
+                <input id="nick" type="text">
+
+            <label for="email" id="email-label">Correo Electrónico:  </label>
+                <input id="email" type="email">
+        </fieldset>
+
+
+            <fieldset>
+                <legend class="legend">Sexo Usuario</legend>
+                <label for="hombre" id="hombre-label"> Hombre
+                    <input id="hombre" type="radio" name="sexo" value="hombre">
+                </label>
+                <label for="mujer" id="mujer-label"> Mujer
+                    <input id="mujer" type="radio" name="sexo" value="mujer">
+                </label>
+                <label for="none" id="mujer-label"> Prefiero No Decir
+                    <input id="none" type="radio" name="sexo" value="none">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend class="legend">Fecha de nacimiento</legend>
+                <label for="fecha" id="fecha-label" > Fecha de nacimiento </label>
+                    <input id="fecha" type="date" value="2024-02-19">   
+            </fieldset>
+
+            <fieldset>
+                <legend class="legend">Seleccione un personaje</legend>
+                <select id="dropdown">
+                    <option value="" disabled selected>Seleciona una opción</option>
+                    <option value="Jessie">Ken </option>
+                    <option value="Walter">Chun Li</option>
+                    <option value="Saul">Zangief</option>
+                    <option value="Gustavog">Dhalsin</option>
+                    <option value="Pollos">Ryu</option>
+                    <option value="Otros">E Honda</option>
+                    <option value="Jessie">Blanka </option>
+                    <option value="Walter">Guille</option>
+                    <option value="Saul">T Hawk</option>
+                    <option value="Gustavog">Feilong</option>
+                    <option value="Pollos">Dee Jay</option>
+                    <option value="Otros">Cammy</option>
+                    <option value="Saul">Balrog</option>
+                    <option value="Gustavog">Vega</option>
+                    <option value="Pollos">Sagat</option>
+                    <option value="Otros">M Bison</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend class="legend">Comentarios</legend>
+                <label for="coments" id="comments-label"> </label>
+                <textarea id="coments" rows="5" cols="500"></textarea>
+            </fieldset>
+
+            <input class="boton" type="submit" value="Enviar">
+            <input class="boton" type="reset" value="Borrar">
+
+    </form>
+</body>
+
+</html>
